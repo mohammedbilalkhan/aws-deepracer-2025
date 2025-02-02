@@ -25,7 +25,6 @@ This project focuses on analyzing a comprehensive dataset of startup investments
 
 ## **Tools and Technologies:**  
 - Python (Pandas, NumPy, Matplotlib, Seaborn)  
-- Geospatial libraries (e.g., Folium)  
 - Jupyter Notebook or Google Colab for analysis  
 - Tableau or Power BI for visualization (optional)  
 
