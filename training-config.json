@@ -1,0 +1,22 @@
+{
+  "race_type": "Time Trial",
+  "environment": "re:Invent 2018 - Counterclockwise",
+  "sensors": ["Camera"],
+  "action_space_type": "Continuous",
+  "action_space": {
+    "speed": [0.7, 3.2],
+    "steering_angle": [-28.9, 28.9]
+  },
+  "framework": "TensorFlow",
+  "algorithm": "PPO",
+  "hyperparameters": {
+    "gradient_descent_batch_size": 64,
+    "entropy": 0.01,
+    "discount_factor": 0.95,
+    "loss_type": "Huber",
+    "learning_rate": 0.0005,
+    "experience_episodes_per_update": 32,
+    "number_of_epochs": 10
+  },
+  "reward_function": "reward_function.py"
+}
